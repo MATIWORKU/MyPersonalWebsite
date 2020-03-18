@@ -1,0 +1,71 @@
+.flag{
+    width: 180px;
+    height: 120px;
+    overflow: hidden;
+    border: 1px solid #efefef;
+}
+.algeria{
+    background: linear-gradient(90deg, #006232 , #006232 50%, white 50%, white 100%);
+    position: relative;
+}
+.algeria::before{
+    position: absolute;
+    content: "";
+    border-radius: 50%;
+    left: 0;
+    margin-left: auto;
+    right: 0;
+    margin-right: auto;
+    width: 50px;
+    height: 50px;
+    background: transparent;
+    box-shadow: -9px 0 0 8px #D21034;
+    top: 35px;
+    right: -10px;
+}
+.algeria::after{
+    position: absolute;
+    content: "⭐️";
+    left: 0;
+    margin-left: auto;
+    right: 0;
+    margin-right: auto;
+    color: #D21034;
+    font-size: 2em;
+    transform: rotate(20deg);
+    top: calc(50% - 6px);
+    left: calc(50px - 5px);
+}
+.armenia{
+    background: linear-gradient(180deg, #d90012 , #d90011 calc(100%/3), #0033a0 calc(100%/3), #0033a0 calc(100%/3 * 2 ), #F2A800 calc(100%/3 * 2), #F2A800);
+}
+.tongo{
+    background: #C10000;
+    position: relative;
+}
+.tongo::before{
+    position: absolute;
+    content: "";
+    width: 50%;
+    height: 50%;
+    background: linear-gradient(to bottom, transparent calc(100%/3) , #C10000 calc(100%/3), #C10000 calc(100% / 3 * 2),transparent 0) , linear-gradient(to right, transparent calc(100% / 3), #C10000 calc(100% / 3) , #C10000 calc(100% / 3 * 2), transparent 0), white;
+    background-size: 40px 40px;
+    background-repeat: no-repeat;
+    background-position: 50% 10px;
+}
+.somalia{
+    background: #4189DD;
+    position: relative;
+}
+.somalia::before{
+    position: absolute;
+    content: "⭐️";
+    left: 0;
+    margin-left: auto;
+    right: 0;
+    margin-right: auto;
+    text-align: center;
+    color: white;
+    font-size: 44px;
+    top: 33px;
+}
