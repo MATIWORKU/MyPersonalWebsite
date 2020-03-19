@@ -26,7 +26,7 @@ div p{
     font-size: 25px;
 }
 input-type:text{
-    background-color: gray;
+    background-color: gray;/*this is not working keserahew lakelign*/
 }
 div+div+div p {
     background-color: pink;
@@ -38,6 +38,8 @@ div+div+div>em{
     background-color: white;
     font-size: 20px;
 }
+/*Bonus aleserahum keserash lakilign*/
+
 
 /* Style the HTML elements according to the following instructions. 
 DO NOT ALTER THE EXISTING HTML TO DO THIS.  WRITE ONLY CSS!
