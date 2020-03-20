@@ -25,8 +25,9 @@ input{
 div p{
     font-size: 25px;
 }
-input-type:text{
-    background-color: gray;/*this is not working keserahew lakelign*/
+/*Make only inputs with type 'text' have a gray background*/
+input{
+    background-color: gray;/*this is not working*/
 }
 div+div+div p {
     background-color: pink;
@@ -40,47 +41,17 @@ div+div+div>em{
 }
 /*Bonus aleserahum keserash lakilign*/
 
-
-/* Style the HTML elements according to the following instructions. 
-DO NOT ALTER THE EXISTING HTML TO DO THIS.  WRITE ONLY CSS!
-
-/* Give the <body> element a background of #bdc3c7*/
-
-
-/* Make the <h1> element #9b59b6*/
-
-
-/* Make all <h2> elements orange */
+/*Bonus*/
+h1:hover{
+    color: rgb(0, 0, 255);
+}
+div+div+div+div a:visited{
+    color: gray;
+}
 
 
-/* Make all <li> elements blue(pick your own hexadecimal blue)*/ 
 
 
-/*Change the background on every paragraph to be yellow*/
-
-
-/*Make all inputs have a 3px red border*/
-
-
-/* Give everything with the class 'hello' a white background*/
-
-
-/* Give the element with id 'special' a 2px solid blue border(pick your own rgb blue)*/
-
-
-/*Make all the <p>'s that are nested inside of divs 25px font(font-size: 25px)*/
-
-
-/*Make only inputs with type 'text' have a gray background*/
-
-
-/* Give both <p>'s inside the 3rd <div> a pink background*/
-
-
-/* Give the 2nd <p> inside the 3rd <div> a 5px white border*/
-
-
-/* Make the <em> in the 3rd <div> element white and 20px font(font-size:20px)*/
 
 
 
