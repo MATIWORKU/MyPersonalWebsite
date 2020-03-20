@@ -1,3 +1,9 @@
+footer a{
+    margin: 20px;
+    padding: 5px;
+    background-color: aqua;
+    color: rgb(108, 160, 11);
+  }
 *{
     margin: 0;
     padding: o;
