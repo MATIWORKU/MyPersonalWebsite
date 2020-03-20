@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie-edge">
+        <style>
+            body{
+                background-color: silver;
+            }
+            h1{
+                font-size: 30px;
+                font-family:'Courier New', Courier, monospace;
+                text-shadow: black;
+            }
+            p{
+                margin: auto;
+                padding: 5px;
+                font-size: 15px;
+                font-family:Georgia, 'Times New Roman', Times, serif;
+            }
+            .question{
+                margin:25px;
+                font-size: 18px;
+                font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+                text-align: center;
+            }
+            .publish-date{
+                text-align: right;
+                margin: 50px;
+            }
+        </style>
+    </head>
+    <body>
+        <section>
+            <h1>Answer For Question 4</h1>
+            <p class="question">
+            question:Using relative size to make elements responsive? 
+            </p>
+            <article>
+                <p>According to the W3C spec the definition for one rem unit is: <br>
+                    Equal to the computed value of font-size on the root element. When specified on the font-size property of the root element, the rem units refer to the property’s initial value.
+                    This means that 1rem equals the font size of the html element (which for most browsers has a default value of 16px).
+                </p>
+                <p>The main problem with em units is that they are relative to the font size of their own element unlike rem which is relative to the root element.
+                    And the main issue with using rem for font sizing is that the values are somewhat difficult to use. 
+                </p>
+                <p>It matters to use relative sizes like percentage(%), em and rem to create
+                responsive elements of a website. It gives it a consistent, non-chaotic, simple
+                type of look to the end user.
+                </p>
+                <p>
+                These relative lengths are different from the normal absolute lengths because
+                Relative length units specify a length relative to another length property. Relative 
+                length units scales better between different rendering mediums.
+                </p>
+                <p>
+                But absolute lengths units are fixed and a length expressed in any of these will appear as exactly that size.
+                Absolute length units are not recommended for use on screen, 
+                because screen sizes vary so much. However, they can be used 
+                if the output medium is known, such as for print layout.
+                </p>
+            
+                <p>
+                The reasons why they are so important to responsive and modern web pages are as mentioned above, the relative lengths consider 
+                all platforms for the website to be veiwed upon any various types of 
+                devices with various sizes and resolutions.
+                </p>
+                <p>
+                Browser capabilities a while ago were tedious, they used to increase the
+                font sizes of every and each charachters individually but nowadays, zooming
+                just mostly adjusting the screen to make it more readable but also not lose its looks.
+                </p>
+            </article>
+            <p class="publish-date">March 20,2020 : 6:16 PM</p>
+        </section>
+        <section>
+            <h1>Answer For Question 5</h1>
+            <p class="question">
+            question:  How does a browser interpret what pixels means? 
+            </p>
+            <article>
+                <p>
+                    When a text of size 200px is shown it looks too zoomed into and kinda of hard to read.Well, the browser does care about this it just displays it as it is. So the higher the pixels the more zoomed in the contents will be.  
+                </p>
+            </article>
+            <p class="publish-date">March 20,2020 : 6:16 PM</p>
+        </section>
+        <section>
+            <h1>Answer For Question 6</h1>
+            <p class="question">
+            question:  Explain in detail(​in technical terms ​ ) the specific changes in css3 
+            </p>
+            <article>
+                <p>
+                CSS3 is the latest evolution of the Cascading Style Sheets language and aims at extending CSS2.1. It brings a lot of long-awaited novelties, like rounded corners, shadows, gradients, transitions or animations, 
+                as well as new layouts like multi-columns, flexible box or grid layouts. Experimental parts are vendor-prefixed and should either be avoided in production environments, or used with extreme caution as both their
+                syntax and semantics can change in the future.
+                </p>
+                <p>    
+                The main difference between CSS and CSS3 is that CSS3 has modules.CSS is the basic version and it does not support responsive design. CSS3, on the other hand, is the latest version and supports responsive design.
+                CSS cannot be split into modules but CSS3 can be split in modules. Being an older version of CSS is slower than CSS3.
+                In addition to these CSS3 has many alignment features. CSS3 provides a box-sizing tool which allows the user to get the correct size of any element without making any changes in dimensions or padding of the element.
+                CSS does not have any box-sizing tool and hence the user needs to use the standard procedures defined to align text.
+                The animations and 3D transformations are better in CSS3. Elements can be moved on the screen with the help of flash and JavaScript. Using this the elements will also be able to change their size and color. 
+                All kinds of transitions, transformations, and animations can be done using CSS3. CSS does not provide 3D animation and transformations.
+                CSS provides basic color schema and standard colors. CSS3 supports RGBA, HSLA, HSL and gradient colours. It also supports rounded image corners for text boxes.
+                Multi-column text blocks can be defined in CSS3. CSS only supports single text blocks.
+                </p>
+                <p>But For the techinical parts here are some of the changes:</p>
+                <h3>1. CSS 3 Selectors</h3>
+                <p>
+                In addition to the selectors that were available in CSS2, CSS 3 introduces some new selectors. Using these selectors you can choose DOM elements based on their attributes. So you don't need to specify classes and IDs for every element. 
+                Instead, you can utilize the attribute field to style them.
+                The most useful attributes for selectors are: <br>
+                [attr^=val] Â- matches a DOM element with the attribute attr and a value starting with val <br>
+                [attr$=val] Â- matches a DOM element with the attribute attr and a value ending with the suffix val <br>
+                [attr*=val] Â- matches a DOM element with the attribute attr and a value containing the substring val <br>
+                </p>
+                <h3>2. CSS 3 Rounded Corners</h3>
+                <p>
+                Rounded corner elements can spruce up a website, but creating a rounded corner requires a designer to write a lot of code. Adjusting the height, width and positioning of these elements is a never-ending chore because any change in content can break them.
+                CSS 3 addresses this problem by introducing the border-radius property, which gives you the same rounded-corner effect and you don't have to write all the code. Here are examples for displaying rounded corners in different places of a website.
+                With the introduction of rounded corners, CSS 3 eliminates the need for including external images or using any sort of JavaScript code to position the images. All you need is the border-radius property.
+                </p>
+                <h3>3. CSS 3 Border Image</h3>
+                <p>Another exciting feature in CSS 3 is the ability to swap out a border with an image. The property border-image allows you to specify an image to display instead of a plain solid-colored border.</p>
+
+                <h3>4. CSS 3 Box Shadow</h3>
+                <p>
+
+                A box shadow allows you to create a drop shadow for an element. Usually this effect is achieved using a repeated image around the element. However, with the property box-shadow this can be achieved by writing a single line of CSS code.
+                After previously removing this property from the CSS 3 Backgrounds and Borders Module, the W3C added it back in the last working draft.
+                </p>
+                <h3>5. CSS 3 Text Shadow</h3>
+                <p>
+                The new text-shadow property allows you to add drop shadows to the text on a webpage. Prior to CSS 3, this would be done by either using an image or duplicating a text element and then positioning it. 
+                A similar property called box-shadow is also available in CSS 3.
+                </p>
+        </article>
+    <p class="publish-date">March 20,2020 : 6:16 PM</p>
+        </section>
+    </body>
+</html>

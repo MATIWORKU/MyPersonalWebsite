@@ -25,10 +25,10 @@ input{
 div p{
     font-size: 25px;
 }
-/*Make only inputs with type 'text' have a gray background*/
-/*input>type{
-    background-color: gray;/*this is not working*/
-}*/
+
+input[type^="text"]{
+    background-color: gray;
+}
 div+div+div p {
     background-color: pink;
 }
@@ -42,21 +42,27 @@ div+div+div>em{
 
 /*Bonus*/
 
+li>input:checked{
+    margin-left: 50px;
+}
+
+label{
+    text-transform: uppercase;
+}
+
+#special::first-letter{
+    color: green;
+    font-size: 100px;
+}
+
 h1:hover{
     color: rgb(0, 0, 255);
 }
 div+div+div+div a:visited{
     color: gray;
 }
-label{
-    text-transform: uppercase;
-}
-/*BONUS CHALLENGES*/
-/*You may need to research some other selectors and properties*/
 
-/*Make all "checked" checkboxes have a left margin of 50px(margin-left: 50px)*/
 
-/*Make the first letter of the element with id 'special' green and 100px font size(font-size: 100)*/
 footer a{
     margin: 20px;
     padding: 5px;
